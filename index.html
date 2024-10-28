@@ -32,19 +32,19 @@ function MarkMate( ) {
     if(userScore == '' )
     alert('enter your score')
 else if(userScore >= 0 && userScore< 40){
-    showResult.innerHTML = 'FAIL'
+    showResult.innerHTML = 'F - fail 😭'
 }
 else if(userScore >= 40 && userScore< 45){
-    showResult.innerHTML ='pass'
+    showResult.innerHTML ='D - Good '
 }
 else if(userScore >= 45 && userScore< 60){
-    showResult.innerHTML ='average'
+    showResult.innerHTML ='C - Credit'
 }
 else if(userScore >= 60 && userScore<  70 ){
-    showResult.innerHTML ='good'
+    showResult.innerHTML ='B - Very good'
 }
 else if(userScore >= 70 && userScore<=  100 ){
-    showResult.innerHTML ='good'
+    showResult.innerHTML ='A - Excellent'
 }
 else if(userScore < 0 ){
     showResult.innerHTML ='Score most be from 0 - 100'
