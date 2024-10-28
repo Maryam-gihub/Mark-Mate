@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .background{
-    background-color :pink;
+    background: rgb(193, 106, 227);
     background-position:center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,4 +17,5 @@
 .container-fluid{
     margin-top: 100px;
     position: absolute;
+    background-color: rgb(238, 234, 235);
 }
